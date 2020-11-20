@@ -1,0 +1,2 @@
+rootProject.name='Guide For Pubg Mobile'
+include ':app'

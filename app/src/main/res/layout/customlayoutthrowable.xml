@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Customlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HomeBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/moliname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFF"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Molotive Cocktail"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/moliimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/moliname"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:src="@mipmap/grenade" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moliname"
+        android:layout_toRightOf="@+id/moliimage">
+
+        <TextView
+            android:id="@+id/throwtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Throw Time:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/throwtimedetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/throwtime"
+            android:fontFamily="@font/almendra_sc"
+            android:text="1.30 sec"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/throwtimedetail"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Weight:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/weightedetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@id/weight"
+            android:fontFamily="@font/almendra_sc"
+            android:text="1"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

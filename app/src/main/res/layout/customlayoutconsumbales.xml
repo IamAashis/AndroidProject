@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CustomlayoutConsumables"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HomeBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/ConsumablesName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFF"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Bandage"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <ImageView
+
+        android:id="@+id/Consumbalesimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/ConsumablesName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFF"
+        android:src="@mipmap/bandages" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ConsumablesName"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/Consumbalesimage">
+
+        <TextView
+            android:id="@+id/ConsumbalesCapacity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Capacity :"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ConsumbalesCapacityDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/ConsumbalesCapacity"
+            android:fontFamily="@font/almendra_sc"
+            android:text="170"
+            android:textAllCaps="false"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ConsumbalesHealPoints"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ConsumbalesCapacityDetail"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Healpoints:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/ConsumbalesHealPointsdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/ConsumbalesHealPoints"
+            android:fontFamily="@font/almendra_sc"
+            android:text="1"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/consumbalecasttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ConsumbalesHealPoints"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/amaranth"
+            android:text="castetime:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/consumbalecasttimedetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="55dp"
+            android:layout_toRightOf="@id/consumbalecasttime"
+            android:fontFamily="@font/almendra_sc"
+            android:text="1"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

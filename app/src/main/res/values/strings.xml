@@ -1,0 +1,367 @@
+<resources>
+    <string name="app_name">Guide For PUBBG MOBILE</string>
+
+    <!--    Homepage-->
+    <string name="Attachements">ATTACHEMENTS</string>
+    <string name="weapons">WEAPONS</string>
+    <string name="ammunitions">AMMUNITIONS</string>
+    <string name="throwables">THROWABLES</string>
+    <string name="melle">MELLE</string>
+    <string name="equipment">EQUIPMENTS</string>
+    <string name="consumbales">CONSUMBALES</string>
+    <string name="vehicles">VEHICLES</string>
+
+    <!--    Navigation open and close-->
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <!--    attachemenets_homepage-->
+    <string name="magazines">MAGAZINES</string>
+    <string name="grips">GRIPS</string>
+    <string name="scope">SCOPE</string>
+    <string name="muzzels">MUZZELS</string>
+    <string name="stocks">STOCKS</string>
+
+
+    <string name="assquickdraw">Assault rifle quickdraw magazine</string>
+    <string name="attachableweapons">attachable weapons</string>
+
+    <!--    WEAPONSHOMEPAGE-->
+    <string name="assaultrifles">Assault Rifles(AR)</string>
+    <string name="sniperrifles">Sniper Rifles(SR)</string>
+    <string name="autosniperrifles">Auto sniper Rifles(DMR)</string>
+    <string name="submachine">Submachine gun(SMG)</string>
+    <string name="lightmachine">Lightmachine gun(LMG)</string>
+    <string name="shotguns">Shotguns(SG)</string>
+    <string name="pistol">Pistols</string>
+
+
+    <!--    activity assault rifles-->
+    <string name="g36c">G36C</string>
+    <string name="mk47">Mk47 Mutant</string>
+    <string name="m762">M762</string>
+    <string name="qbz">QBZ</string>
+    <string name="akm">AkM</string>
+    <string name="groza">Groza</string>
+    <string name="m16a4">M16A4</string>
+    <string name="scarl">SCAR-L</string>
+    <string name="m416">M416</string>
+    <string name="aug">Aug A3</string>
+
+
+    <!--    activity sinper rifles-->
+    <string name="win94">WIN94</string>
+    <string name="awm">AWM</string>
+    <string name="m24">M24</string>
+    <string name="kar98">kar98</string>
+    <string name="mk12">MK12</string>
+
+    <!--    acitivity auto-sinper rifles-->
+    <string name="qbu">QBU</string>
+    <string name="mini14">MINI14</string>
+    <string name="mk14">Mk14</string>
+    <string name="slr">SLR</string>
+    <string name="vss">VSS</string>
+    <string name="sks">SKS</string>
+
+    <!--    acitivity sub-machine-gun (SMG)-->
+    <string name="pp19bzon">PP-19 BIZON</string>
+    <string name="thompson">THOMPSON</string>
+    <string name="uzi">UZI</string>
+    <string name="ump">UMP45</string>
+    <string name="vector">VECTOR</string>
+    <string name="p90">P90</string>
+    <string name="mp5k">MP5K</string>
+
+    <!--    light machine gun (LMG)-->
+    <string name="m249">M249</string>
+    <string name="dp">DP 28</string>
+
+    <!--    shotguns-->
+    <string name="s12k">S12K</string>
+    <string name="s1897">S1897</string>
+    <string name="s686">S686</string>
+    <string name="dbs">DBS</string>
+
+    <!--    pistol-->
+    <string name="skorpion">Skorpion</string>
+    <string name="flaregun">Flare Gun</string>
+    <string name="sawedoff">Sawed Off</string>
+    <string name="p18c">P18C</string>
+    <string name="r45">R45</string>
+    <string name="r1895">R1895</string>
+    <string name="p1911">P1911</string>
+    <string name="p92">P92</string>
+    <string name="deserteagle">Desert Eagle</string>
+
+
+    <!--    Magazinesatachement-->
+    <string name="quickdrawextendedmagsrdmr">quickdraw extended mag(sr,dmr)</string>
+    <string name="ExtendedMagSRDMR">Extended Mag (SR,DMR)</string>
+    <string name="quickdrawMagSRDMR">Quickdraw Mag (SR,DMR)</string>
+    <string name="QuickdrawExtendedMagARDMR">Quickdraw Extended Mag (AR,DMR,S12K)</string>
+    <string name="ExtendedMagARDMR">Extended Mag (AR,DMR,S12K)</string>
+    <string name="QuickdrawMagARDMR">Quickdraw Mag (AR,DMR,S12K)</string>
+
+    <string name="QuickdrawExtendedMagPistols">Quickdraw Extended Mag (Pistols)</string>
+    <string name="ExtendedMagPistols">Extended Mag (Pistols)</string>
+    <string name="QuickdrawMagPistols">Quickdraw Mag (Pistols)</string>
+
+    <string name="QuickdrawExtendedMagSMG">Quickdraw Extended Mag (SMG)</string>
+    <string name="ExtendedMagSMG">Extended Mag (SMG)</string>
+    <string name="QuickdrawMagSMG">Quickdraw Mag (SMG)</string>
+
+    <!--    Grips-->
+    <string name="lasersight">Laser Sight</string>
+    <string name="thumbgrip">Thumb Grip</string>
+    <string name="halfgrip">Half Grip</string>
+    <string name="lightgrip">Light Grip</string>
+    <string name="angledforegrip">Angled ForeGrip</string>
+    <string name="verticalforegrip">Vertical ForeGrip</string>
+
+    <!--    Scope-->
+    <string name="eightscope">8x Scope</string>
+    <string name="sixscope">6x Scope</string>
+    <string name="fourscope">4x Scope</string>
+    <string name="threescope">3x Scope</string>
+    <string name="twoscope">2x Scope</string>
+    <string name="Holographicsight">Holographic Sight</string>
+    <string name="RedDotSight">Red Dot Sight</string>
+
+    <!--    Muzzle-->
+    <string name="PistolsSuppressor">Pistols Suppressor</string>
+    <string name="Duckbill">Duckbill</string>
+    <string name="Choke">Choke</string>
+    <string name="SniperRiflesSuppressor">Sniper Rifles Suppressor</string>
+    <string name="SMGSuppressor">SMG Suppressor</string>
+    <string name="AssaultRiflesSuppressor">Assault Rifles Suppressor</string>
+    <string name="SniperRiflesFlashHider">Sniper Rifles Flash Hiderr</string>
+    <string name="SMGFlashHider">SMG Flash Hider</string>
+    <string name="AssaultRiflesFlashHider">Assault Rifles Flash Hider</string>
+    <string name="SniperRiflesCompensator">Sniper Rifles Compensator</string>
+    <string name="SMGCompensator">SMG Compensatorr</string>
+    <string name="AssaultRiflesCompensator">Assault Rifles Compensator</string>
+
+    <!--    Stocks-->
+    <string name="tactstock">Tact Stock (AR,SMG)</string>
+    <string name="bulletloops">Bullet Loops (SR)</string>
+    <string name="cheekpad">Cheek Pad (SR,DMR)</string>
+    <string name="uzistock">Uzi Stock</string>
+
+    <!--    Ammunitons-->
+
+    <string name="fivesixammo">5.56mm</string>
+    <string name="fourfiveammo">.45 ACP</string>
+    <string name="sevensixammo">7.62mm</string>
+    <string name="nineammo">9mm</string>
+    <string name="guageammo">12 Gauge</string>
+    <string name="boltammo">Bolt</string>
+    <string name="flareammo">Flare</string>
+    <string name="magnum">.300 Magnum</string>
+
+    <!--    Ammunitons Describe-->
+    <string name="fourfiveammodetail">This .45 ACP round is a Light Bullet type
+        with Low Damage Per Seconds but the bullet travels at High Speed at close range.
+        Spawning with 15 or 30 bullets in one pack. It can be found anywhere around your loot spots.</string>
+
+    <string name="sevensixammodetail">This 7.62mm round is a Heavy Bullet type with Highest Damage Per Seconds
+        but the bullet travel at Medium Speed. Spawning with 15 or 30 bullets in one pack. It can be found anywhere
+        around the loot spots.</string>
+
+    <string name="fivesixammodetail">This 5.56mm round is a Medium Bullet type with High Damage Per Seconds and
+        the bullet travel at High Speed. Spawning with 30 bullets in one pack. It can be found anywhere around the loot spots.</string>
+
+    <string name="nineammodetail">This 9mm round is a Light Bullet type with Medium Damage Per Seconds but the bullet
+        travel at Medium Speed. Spawning with 15 or 30 bullets in one pack. It can be found anywhere around your loot spots.</string>
+
+    <string name="gaugeammodetail">This 12 Gauge round is a Heavy Bullet type with High Damage in Close Range. The Bullet
+        Travel Speed is High in Close Range. Spawning with 10 bullets in one pack. You can find it anywhere around your loot spots.</string>
+
+    <string name="magnumammodetail">This .300 Magnum is a Heavy Bullet type with High Damage in any Range. The Bullet Travel
+        Speed is High in any range. Spawning with 10 bullets in 1 pack. It can only be found in AirDrop.</string>
+
+
+    <!--    Weapons-->
+    <string name="g36cdetail">G36C - PUBG Mobile. G36C fires 5.56mm rounds and
+        has a single-mode as well as full-auto mode. A weapon that can be equipped
+        with a variety of attachments and is great for all ranges. G36C is an all-round
+        weapon without specific strengths or weaknesses.</string>
+
+    <string name="akmdetail">AKM - PUBG MOBILE. AKM fires 7.62mm rounds and has both a single shot
+        and full auto mode. AKM deals a lot of damage in a single shot, but its heavy recoil
+        makes it harder to control.</string>
+
+    <string name="mk47detail">Mk47 Mutant - PUBG Mobile. Mk47 Mutant fires 7.62mm rounds with 20 bullets
+        per mag. It has both a single shot and double shot modes. Mk47 Mutant is a good medium-range weapon.</string>
+
+    <string name="qbzdetail">QBZ - PUBG MOBILE. QBZ Fires 5.56mm rounds with a single-shot mode and a full-auto mode.
+        Stable with low recoil, but slow when reloading and firing speed is not as fast as other 5.56mm rifles.</string>
+
+    <string name="grozadetail">GROZA - PUBG MOBILE. GROZA obtained from airdrops, fires 7.62mm rounds and has both a single
+        shot and a full auto mode. Deals a lot of damage in a single shot with a high rate of fire. It is the best
+        mid-to-close-range automatic rifle.</string>
+
+    <string name="m16a4detail">M16A4 - PUBG MOBILE. M16A4 Fires 5.56mm rounds and has both a single shot and a burst mode,
+        which is very fast and deals high damage in close range. But it does not have a full auto mode, and the burst mode
+        is difficult to master.</string>
+
+    <string name="scarldetail">SCAR-L - PUBG MOBILE fires 5.56mm rounds and has both a single and a full auto mode. Light
+        recoil, stability, and accuracy make this weapon easier to master. Its rate of fire is lower than other 5.56mm rifles.
+        But a fine weapon nonetheless.</string>
+
+    <string name="m416detail">M416 - PUBG MOBILE. M416 Fires 5.56mm rounds with 30 bullets per Mag. It has both a single shot
+        and a full auto mode. It can be equipped with lots of attachments to become an all-rounder at any distance.</string>
+
+    <string name="augdetail">AUG A3 - PUBG Mobile. Obtained from airdrops. Fire 5.56mm and has both a single short and a full
+        auto mode. With light recoil and great performance in the mid-to-far range. it doesn\'t have any visible weakness.</string>
+
+    <!--    Sniper Rifles Details-->
+
+    <string name="win94detail">Win94 - PUBG MOBILE. Win94 fires .45rounds. Very powerful and fast, but cannot equipped with any scope.
+    </string>
+
+    <string name="awmdetail">AWM - PUBG MOBILE. Obtained from airdrops. It is the most powerful bolt sniper rifle and fires unique
+        magnum rounds. Deals extremely high damage and ignores rank 3 headgear in long distance.
+    </string>
+
+    <string name="m24detail">M24 - PUBG MOBILE. M24 is a great bolt action sniper rifle that fires 7.62mm rounds.
+        Second only to the AWM and can eliminate players in Lv.2 headgear with one shot. Relies heavily on scopes and skills.</string>
+
+    <string name="kar98detail">Kar98K - PUBG MOBILE. This single bolt sniper rifle fire 7.62mm rounds that can one-short players
+        in rank 2 headgear. Relies heavily on scope and skills.</string>
+
+    <string name="mk12detail">PUBG Mobile 0.19.0 update has been released with a lot of cool features. Apart from the mind-blowing PUBG Mobile
+        Livik map which unfold the chaotics world with more enemies and less time, the new updated version of PUBG Mobile also offers
+        players with staggering weapons and the MK12 is no doubt the most special one.</string>
+
+    <!--    AutoSniperRifles-->
+
+    <string name="qbudetail">QBU - PUBG MOBILE. QBU is a modern semi-automatic rifle that fires 5.56mm rounds.
+        Each shot deals high damage but the recoil is strong. Overall excellent rifle</string>
+
+    <string name="mini14detail">QBU - PUBG MOBILE. QBU is a modern semi-automatic rifle that fires 5.56mm rounds.
+        Each shot deals high damage but the recoil is strong. Overall excellent rifle</string>
+
+    <string name="mk14detail">Mk14 - PUBG MOBILE. Mk14 fires 7.62mm rounds with 10 bullets per mag. Obtained from
+        airdrops only. Mk14 has light recoil when in single firing while prone, but heavy recoil when in full auto mode.</string>
+
+    <string name="slrdetail">SLR - PUBG Mobile. A Semi-automatic marksman rifle that fires 7.62mm rounds. Powerful
+        recoil but deals a significant amount of damage. It requires some skills when firing continuously</string>
+
+    <string name="vssdetail">VSS - PUBG MOBILE. VSS fires 9mm rounds and comes with a suppressor and a 4x scope.
+        Light recoil but also less powerful. Difficult to hit moving targets that are far away due to slow initial
+        speed and high bullet drop.</string>
+
+    <string name="sksdetail">SKS - PUBG MOBILE. SKS fires 7.62mm rounds. Single shots deal very high damage and
+        can be equipped with a variety of attachments.It has heavy recoil and is harder to control when firing continuously.</string>
+
+    <!--    SMG bizon-->
+    <string name="bizondetail">PP-19 or Bizon is a new submachine gun in PUBG Mobile version 0.13.5.
+        This weapon fires 9mm ammunition and can only be found in Erangel and Vikendi. PP-19 Bizon can be
+        equipped with scopes from Red Dot Sight to 6x Scope and all muzzle accessories available for submachine guns. </string>
+
+    <string name="thompsondetail">Thompson SMG fires  .45ACP rounds with 30 bullets per mag.You can obtain this weapon from Ground Loots.
+            Thompson SMG has single shot and full auto mode.Thompson SMG deals more damage than other SMGs </string>
+
+
+    <string name="uzidetail">UZI has single shot and full auto mode. UZI is a very mobile and fast weapon to use in early close combat,
+        it is really good against enemies with no protection item, but never underestimate a UZI because sometimes it can come in
+        handy. Unfortunately, UZI cannot be equipped with any scope.</string>
+
+    <string name="umpdetail">UMP45 has single shot, double shot, and full auto mode. UMP45 is really good in close range combat.
+        It has a high fire rate and very mobile. UMP9 requires lots of attachments so that it can be handled even better. </string>
+
+    <string name="vectordetail">Vector has single shot, double shot, and full auto mode. Vector is a fast, stable and mobile weapon
+        it is really good in close range because of fast firing speed but with only 13 bullets it is pretty hard to secure a kill,
+        an smg extended magazine is a must for Vector. </string>
+
+    <string name="p90detail">The P90 is an excellent close combat weapon and is a good option for those who like the high fire rate
+        of weapons such as the micro Uzi. The ideal way to use the weapon is in the close quarters.</string>
+
+    <string name="mp5kdetail">The Mk12 is a gun which falls in the DMR category. It uses 5.56 ammunition and has a large magazine
+        for a DMR. The gun has one of the lowest recoils in the game and feels incredibly smooth when firing. </string>
+
+    <!--    LightMachineGun-->
+
+    <string name="m249detail">M249 only has a full auto mode. M249 is a light machine gun that has the most bullets per magazine,
+        with this advantage this weapon is preferred to use against moving a vehicle or providing cover for a teammate, with that
+        said M249 is also a range adaptive weapons that can attach scope from red dot sight to 6x. No attachment is required for this
+        weapon. </string>
+
+    <string name="dpdetail">DP 28 only has a full auto mode.DP 28 is a light machine gun that has a large magazine able to put over
+        40 bullets, the weapon doesn\'t require any attachment beside scopes. It is an adaptive weapon that can shoot at any range
+        from red dot sight to 6x scope. </string>
+
+
+    <!--    Shotguns-->
+
+    <string name="s12kdetail">S12K is a semi-automatic shotgun that able to fires shot continuously and also capable of equipping
+        attachment due to heavy recoil and loud sound of fire. It is recommended to use in close range in other to get a good
+        amount of damage to an enemy. </string>
+
+    <string name="s1897kdetail">S1897 is a shotgun that deals high damage in close range but doesn\'t fire very fast and took
+        a longer time to reload. It is a good weapon to pick up in early landing.</string>
+
+    <string name="s686kdetail">S686 is a double barrel shotgun that can be fired a quick double shot, deals high damage in
+        close range, didn\'t really work out in another range. An early game weapon to choose when there are no other weapons
+        around you.</string>
+
+    <string name="dbsdetail"> It is a double-barreled pump-action shotgun. DBS is a
+        nine-pellet gun and has a base damage of 26. The weapon can fire a massive burst of bullets in a short
+        duration. This gun uses a 12-gauge ammunition and has a magazine size of 14. </string>
+
+    <!--    Pistol-->
+
+    <string name="skorpion0detail">Skorpion is a machine pistol that has an ability to fires both single and full-auto.
+        The recoil is light and can attach with Scope, Foregrip, Magazine, and Stock to hit a more accurate shot.</string>
+
+    <string name="flaregundetail">Flare Gun is very rare it deals no damage. This weapon requires to fires up towards the
+        sky in other to call a special airdrop or armored UAZ when you are outside the safe zone. There are no real stats
+        that let you know where to find it exactly. It depends on your luck 100%.</string>
+
+    <string name="sawedoffdetail">Sawed-off is a shotgun pistol that fires 2 bullets per mag, deal very high damage in close range.</string>
+
+    <string name="p18cdetail">P18C is an automatic pistol that has the single and full auto fire more. P18C is a good close range
+        pistol that has a fast fire rate but low damage.</string>
+
+    <string name="r45detail">R45 is a powerful revolver that deals with very high damage and very accurate in the close range also
+        with fast reload. </string>
+
+    <string name="p92detail">P92 is a semi-automatic pistol that you can easily find in the game when you drop down the parachute,
+        it is commonly used for early combat like really early, it works great when holding enemies in close range and when pushing
+        enemies with no vest or helmet. To make P92 a good pistol choice you might need to attach some attachment. </string>
+
+    <string name="p1991detail">P1911 is a semi-automatic pistol that has more power when shooting and adapting to a longer range
+        and is much more accurate than the other pistol. To get P1911 to reach its precise point you might need to attach some
+        attachment for it.</string>
+
+    <string name="DesertEagledetail">The semi-automatic pistol offers massive damage of 62 and two shots on the head is enough to do
+        the job. No matter, which helmet you are wearing, it will smash your head down. The effective Fire Range being 100m gives
+        a clear message to the enemies to maintain a safe distance or not to indulge in a close combat battle in PUBG mobile game.</string>
+
+    <string name="r1a95detail">R1895 is a very powerful pistol that deals high damage, but the recoil is heavy and this weapon
+        can\'t attach Scope, Foregrip, and Mag. It requires a good aim to hit an accurate shot.</string>
+
+
+    <!--    Weapons Specification-->
+    <string name="weapontype">Weapon Type</string>
+    <string name="power">Base Damange</string>
+    <string name="range">Range</string>
+    <string name="recoil">Recoil</string>
+    <string name="firingSpeed">Firing Speed</string>
+    <string name="firerate">Fire Rate</string>
+    <string name="aamotype">Ammo Type</string>
+    <string name="magcapacity">Magazine Capacity</string>
+    <string name="timetokill">Time To Kill</string>
+    <string name="firingmode">Firing Mode</string>
+    <string name="availability">Availability</string>
+
+    <string name="reloadtime">Reload Time</string>
+
+
+    <string name="compatibleattachements">Best Attachments</string>
+
+
+</resources>
+

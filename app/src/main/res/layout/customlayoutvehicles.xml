@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/CustomlayoutVehicle"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/HomeBackground"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/VehicleName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:background="#FFFF"
+        android:fontFamily="@font/aldrich"
+        android:gravity="center"
+        android:text="Buggy"
+        android:textAllCaps="true"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/Vehicleimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/VehicleName"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FFFF"
+        android:src="@mipmap/helmthree" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/VehicleName"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/Vehicleimage">
+
+        <TextView
+            android:id="@+id/VehicleHealth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Health:"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/VehicleHealthDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@id/VehicleHealth"
+            android:fontFamily="@font/almendra_sc"
+            android:text="1540"
+            android:textAllCaps="false"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/VehicleMaximumSpeed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VehicleHealthDetail"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/amaranth"
+            android:text="MaximumSpeed:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/VehicleMaximumSpeeddetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@id/VehicleMaximumSpeed"
+            android:fontFamily="@font/almendra_sc"
+            android:text="112km/h"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/VehicleTotalSeats"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/VehicleMaximumSpeed"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/amaranth"
+            android:text="Durability:"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/VehicleTotalSeatsdetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="55dp"
+            android:layout_toRightOf="@id/VehicleMaximumSpeed"
+            android:fontFamily="@font/almendra_sc"
+            android:text="2"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

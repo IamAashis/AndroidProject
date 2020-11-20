@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.project.guidepubgmobile">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-1572920524042723~3945345259" />
+        <!--        APP ID-->
+
+        <activity
+            android:name="com.project.guidepubgmobile.SplashActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.Ammo.MagnumammoActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.Ammo.GaugeammoActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.Ammo.NineammoActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.Ammo.FiveammoActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.Ammo.SevenammoActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.Ammo.AcpActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.R1895Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.DesertEagleActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.P1991Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.p92Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.R45Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.P18cActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.SawedoffActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.FlaregunActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.pistol.SkorpionActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.Pistol"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.shotguns.DbsActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.ShotGunsSG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.shotguns.S686Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.ShotGunsSG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.shotguns.S1897Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.ShotGunsSG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.shotguns.S12kActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.ShotGunsSG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.LightMachineGun.Dp28Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.LightMachineGunLMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.LightMachineGun.M249Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.LightMachineGunLMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.Mp5kActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.P90Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.VectorActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.Ump45Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.UziActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.ThompsonActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGun.BizonActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRifle.SksActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRifle.VssActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRifle.SlrActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRifle.Mk14Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRifle.Mini14Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRifle.QbuActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SniperRifle.Mk12Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SinperRifleSR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SniperRifle.Kar98Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SinperRifleSR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SniperRifle.M24Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SinperRifleSR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SniperRifle.AwmActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SinperRifleSR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SniperRifle.Win94Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.SinperRifleSR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.AugActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.M416Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.ScarlActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.M16A4Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.grozaActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.qbzActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.mk47Activity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.akmActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifle.g36cActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity android:name="com.project.guidepubgmobile.Attachements.Magazines.ExtendeMagSRDMR.ExtendedMagActivity" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.Magazines.ExtendeMagSRDMR.oneQuickdrawExtendedActivity"
+            android:parentActivityName="com.project.guidepubgmobile.Attachements.MagazinesAttachmentsActivity"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Vehicles.VehiclesActivity"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Equipments.EquipmentsActivity"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Consumables.ConsumbalesActivity"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Melle.MelleActivity"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Throwables.ThrowablesActivity"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Ammunitions.AmunitionsActivity"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.StocksActivity"
+            android:parentActivityName="com.project.guidepubgmobile.AttachmentsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.MuzzlesActivity"
+            android:parentActivityName="com.project.guidepubgmobile.AttachmentsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.ScopesActivity"
+            android:parentActivityName="com.project.guidepubgmobile.AttachmentsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.GripsActivity"
+            android:parentActivityName="com.project.guidepubgmobile.AttachmentsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.Pistol"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.ShotGunsSG"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.LightMachineGunLMG"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SubMachineGunSMG"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AutoSniperRiflesDMR"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.SinperRifleSR"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Weapons.AssaultRifleAR"
+            android:parentActivityName="com.project.guidepubgmobile.WeaponsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.WeaponsHomePage"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.Magazines.ARQuickDraw"
+            android:theme="@style/Theme.Design.Light.NoActionBar" />
+        <activity
+            android:name="com.project.guidepubgmobile.Attachements.MagazinesAttachmentsActivity"
+            android:parentActivityName="com.project.guidepubgmobile.AttachmentsHomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.AttachmentsHomePage"
+            android:parentActivityName="com.project.guidepubgmobile.HomePage" />
+        <activity
+            android:name="com.project.guidepubgmobile.HomePage"
+            android:theme="@style/Theme.Design.Light.NoActionBar"></activity>
+        <activity android:name="com.project.guidepubgmobile.MainActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

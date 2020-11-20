@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+
+    <color name="HomeAppBar">#C07818</color>
+    <color name="colorcardviewbar">#C07818</color>
+    <color name="colorcardviewbartext">#FFFF</color>
+    <color name="HomeBackground">#CEC7A5</color>
+
+    <color name="cardviewback">#FFFF</color>
+    <color name="barcolor">#101820ff</color>
+
+    <color name="swapscreenbackground">#9C9FB3</color>
+
+
+
+
+</resources>
